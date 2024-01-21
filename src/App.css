@@ -1,0 +1,62 @@
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin-top: 2px;
+}
+
+.nav-container > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-container ul li {
+  padding: 20px; 
+  margin: 10px;
+}
+
+.items{
+  padding: 5px;
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  overflow: auto;
+  
+}
+.items:hover{
+  border: 1px solid black;
+}
+
+.res-logo{
+  width: 100%;
+}
+.search {
+  margin: 10px;
+}
+.res-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-btn {
+  padding: 2px;
+  margin: 5px;
+}
+
+.simmer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.simmer-card {
+  padding: 5px;
+  margin: 8px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
